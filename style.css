@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+/* nav section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+.nav-title{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 35px;
+}
+nav a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+.banner-title{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+
+}
+.banner-description{
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.btn-primary{
+    border: 0;
+    background-color: #E02C6d;
+    color: white;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+.banner-img{
+    background-image: url("./images/Circle\ design.svg");
+    background-repeat: no-repeat;
+}
+.banner-img img{
+   padding: 20px;
+   margin-bottom: 20px;
+}
+/* heading ends */
